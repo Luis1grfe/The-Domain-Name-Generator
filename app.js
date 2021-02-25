@@ -8,7 +8,6 @@ function generator(){
    var adjAux = Math.floor(Math.random() * adj.length);
    var nounAux = Math.floor(Math.random() * noun.length);
    var domainAux = Math.floor(Math.random() * domain.length);
-   console.log(pronounAux+" "+adjAux+" "+nounAux+" "+domainAux);
    var print = console.log(pronoun[pronounAux]+adj[adjAux]+noun[nounAux]+domain[domainAux]);
 
    return print;
